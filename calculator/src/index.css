@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  position: relative;
+}
+
+.container{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  background-color: rgb(23, 37, 84);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,30%);
+}
+
+
